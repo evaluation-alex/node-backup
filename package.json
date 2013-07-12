@@ -1,0 +1,23 @@
+{
+  "name": "backup",
+  "version": "0.1.0",
+  "author": "Josh Perry <josh@6bit.com>",
+  "description": "A simple script that backs up a directory to an S3 bucket",
+  "scripts": {
+    "postinstall": "winser -i -s -c",
+    "preuninstall": "winser -r -x -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshperry/node-backup.git"
+  },
+  "dependencies" : {
+    "cron"   :  "*",
+    "aws-sdk" :  "*",
+    "winser" :  "*"
+  },
+  "license": "BSD",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
