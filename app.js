@@ -92,6 +92,6 @@ var sendToS3 = function(backupInfo) {
 	});
 }
 
-//var job = new cronJob(config.frequency, backupPaths, function(){}, true);
+var job = new cronJob(config.frequency, backupPaths, function(){}, true);
 
-exports.backupPaths = backupPaths;
+//exports.backupPaths = backupPaths;
