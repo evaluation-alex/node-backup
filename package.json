@@ -13,8 +13,11 @@
   },
   "dependencies" : {
     "cron"   :  "*",
-    "aws-sdk" :  "*",
-    "winser" :  "*"
+	"knox": "*",
+    "winser" :  "*",
+	"tar.gz": "*",
+	"async": "*",
+	"temp": "*"
   },
   "license": "BSD",
   "engines": {
