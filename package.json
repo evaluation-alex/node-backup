@@ -4,7 +4,7 @@
   "author": "Josh Perry <josh@6bit.com>",
   "description": "A simple script that backs up a directory to an S3 bucket",
   "scripts": {
-    "install-service": "winser -i -s -c",
+    "install-service": "winser -i -s",
     "uninstall-service": "winser -r -x -s"
   },
   "repository": {
